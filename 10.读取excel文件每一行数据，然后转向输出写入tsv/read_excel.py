@@ -20,7 +20,7 @@ def output_list(list_item):
     for item in list_item:
         writeinto_detail(text_file,[item])
 
-    writeinto_detail(text_file,["--"*66])
+    writeinto_detail(text_file,["--"*20+ "Mercari---Engineer Vocabulary List" + "--"*20])
 
 def read_excel(excelfile):
     file_dt = pd.read_excel(excelfile)
