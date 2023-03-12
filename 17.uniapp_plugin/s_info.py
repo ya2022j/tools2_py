@@ -96,3 +96,4 @@ if __name__ == "__main__":
 # url  varchar(255),
 # fee_flg varchar(1) NOT NULL DEFAULT '0'
 # ) engine=InnoDB  charset=utf8;
+# select title from uniapp_plugin where title REGEXP "%电商" limit 50 ;
